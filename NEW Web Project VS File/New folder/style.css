@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #0097b2}
+    #head-text{
+        margin-top: 100px;
+        margin-left: 20px;
+        font-family: sans-serif;
+        color: #1d4208; font-weight: bold; }
+    
+                #head2-text{
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: sans-serif;
+            color: #1d4208; }
