@@ -10,66 +10,37 @@
     <a href="services.html">Our Services</a>
     <a href="contact.html">Contact Us</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
+      <i class="navList"></i>
     </a>
   </div>
-<h1>Contact us</h1>
-<body>
 
-    /*Creating the contact form as a table. Need to style and add interactivity.*/
-    <table>
-        <table class="Contact-table"
-    <tr>
-        <td>First Name:</td>
-<td>
-    <input type="text"  name="First"
-</td>
+<body></body>
 
-<tr>
-    <td>Last Name:</td>
-<td>
-<input type="text"  name="Last"
+  <h1>Contact us</h1>
+  <div class="contact-boxes">
 
-</td>
+  <form action="jessicamolnar10@gmail.com" method="post" enctype="text/plain">
+     Name:<input type="text" name="yName">
+     <br>E-mail:<input type="text" name="yEmail">
+     <br>Phone Number:<input type="text"placeholder="Optional" name="yNumber"> 
+     <br>Your Question:<input type="text" name="yQuestion">
 
-</tr>
-    <tr>
-        <td>Question:</td>
-    <td>
-    <input type="text"  placeholder="Type your message here.."  name="Message"
-    </td>
+    <input type="submit" value="Send">
+</form>
+  </div>
 
-    <input type="button" value="Submit"
-        </tr>
-    </div>
+    <div class="contact-boxes">
+        <h4>Email:</h4>
+      <p class="contactInfo">Info@AvalonAdventures.ca</p>
+        <h4>Phone:</h4>
+       <p class="contactInfo">709-555-5555</p> 
+    </div> 
 
-
-    </tr>
-
-    </table>
-
-
-
-    /*Displaying contact info below contact form. Put it in containers to make it easier to style.*/
-
-    <h1 id="reach"> How to reach us </h1> 
-
-    <container id="phone-info">
-
-    <h2> Email:</h2>
-<p>Info@AvalonAdventures.ca</p>
-<h2>Phone:</h2>
-<p>709-555-5555</p>
-</container> 
-</body>
-
-
-
- <container id="office-info"> 
-<h2>In our office at:</h2>
-<p>320 Torbay Rd #206,</p>
-<p></p>St John's, NL A1A0L3</p>
-</container>
+   <div class="contact-boxes">
+        <h4>In Person:</h4>
+        <p class="contactInfo">320 Torbay Rd #206</p>
+         St John's, NL A1A0L3
+ </div>
 
 
 
